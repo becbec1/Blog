@@ -1,0 +1,18 @@
+body { 
+    font-family: 'PT Serif', 'Georgia', serif;
+    font-size: 18pt;
+    color: 6f6f6f
+     }
+.logo {
+    
+    font-family: 'Bentham', 'Georgia', serif;
+    font-size: 35pt;
+    color: f5ebeb
+      }
+header {
+background: url(/images/venice.jpg) center center fixed;
+     -webkit-background-size: cover;
+     -o-background-size: cover;
+     -moz-background-size: cover;
+     background-size: cover;
+       }
