@@ -44,12 +44,14 @@ header p#blogDescription {
 }
 
 header nav a {
+    text-align: center;
     color: #60ccc1;
     
 }
 main article h2{
     font-family: 'Bentham', 'Georgia', serif;
     font-size: 40px;
+    text-transform: uppercase;
     text-align: center;
     margin-top: 30px;
     letter-spacing: 1.5px;
