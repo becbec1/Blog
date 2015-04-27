@@ -1,16 +1,16 @@
 body { 
     font-family: 'PT Serif', 'Georgia', serif;
-    font-size: 18pt;
+    font-size: 18px;
     color: #6f6f6f;
 }
 .logo {
     
     font-family: 'Bentham', 'Georgia', serif;
-    font-size: 35pt;
+    font-size: 35px;
     padding: 20px;
     border: 1px solid #fff;
-    width: 167px;
-    margin: 0 auto;
+    width: 150px;
+    margin: 0 auto 150px;
     text-align: center;
     
     
@@ -26,11 +26,18 @@ header {
      background-size: cover;
     color: #fff;
 }
-header h1{
+header h1 {
     font-size: 90px;
     font-family: 'Bentham', 'Georgia', serif;
     text-align: center;
     width: 70%;
     margin: 0 auto;
+}
         
+header p#blogDescription {
+    font-size: 28px;
+}
+
+header nav a {
+    color: #60ccc1;
 }
