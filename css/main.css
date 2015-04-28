@@ -36,6 +36,7 @@ header h1 {
     width: 70%;
     margin: 0 auto;
     letter-spacing: 1.5px;
+    line-height: .8em;
 }
         
 header p#blogDescription {
@@ -44,6 +45,7 @@ header p#blogDescription {
     text-align: center;
     margin-top: 50px;
     letter-spacing: 1.8px;
+    line-height: 1em;
 }
 header nav a {
   
@@ -59,6 +61,7 @@ main article h2{
     text-align: center;
     margin-top: 30px;
     letter-spacing: 1.5px;
+    line-height: 1em;
     margin-top: 120px;
     margin-bottom: 50px;
     
