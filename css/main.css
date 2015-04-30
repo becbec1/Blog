@@ -1,6 +1,9 @@
-/*Overall styles*/
+/******Base styles*******/
 
 
+* {
+box-sizing: border-box;
+}
 p {
     margin-bottom: 1.5em;
     line-height: 1.5em;
@@ -24,6 +27,7 @@ line-height: .9em;
     margin: 0 auto 120px;
     text-align: center;  
     
+
 }
 header {
     padding-top: 80px;
@@ -35,6 +39,7 @@ header {
      -moz-background-size: cover;
      background-size: cover;
     color: #fff;
+
     
 }
 header h1 {
@@ -45,7 +50,7 @@ header h1 {
     margin: 0 auto;
     letter-spacing: 1.5px;
 }
-        
+   
 header p#blogDescription {
     font-family: 'PT Sans', sans-serif;
     font-style: italic;
@@ -54,27 +59,28 @@ header p#blogDescription {
     letter-spacing: 1.8px;
     line-height: 1em;
     font-weight: lighter
+        
 }
-header .nav ul li {
-    display:inline;   
-}
+
 header .nav a:link {
     text-decoration: none;
     color: #60ccc1;
     padding-left: 20px;
     padding-right: 20px;
-}
-header .nav {
+    
     background-color: #6f6f6f;
     padding: 15px;
     text-align: center;
     font-size: .9rem;
     text-transform: uppercase;
-    
 }
+    
 
 
-/* Styles for main part of page (the article)*/
+
+
+
+/***** Styles for main part of page (the article)*/
 
 
 body { 
@@ -112,10 +118,12 @@ main article h2{
 
 
 
-/*Styles for Sharing and Author Bio*/
+/*******Styles for Sharing and Author Bio***********/
 
 
-
+footer {
+text-align: center;
+}
 .share_container {
 
     margin: 100px 0;
@@ -129,6 +137,12 @@ main article h2{
     margin: 0 -3px;
 }
     
+.authorPic {
+   border-radius: 50%;
+   width: 150px;
+   height: 150px;
+    
+}
 .authorName {
     font-size: 2.25rem; (36px)
    margin-top: 50px;  /*none of the vertical margins are showing up */
@@ -151,14 +165,14 @@ main article h2{
     margin-top: 50px;
 }
 
-/* Styles for psuedo class styles */
+/****** Psuedo class styles ************/
 
 
-/*Why isn't this working? */ 
+a:visited {
+    color:#CCC160;
+}
+
 a:hover {
     color:#C160CC;
 
-}
-a:visited {
-    color:#CCC160;
 }
