@@ -39,6 +39,7 @@ header {
      -moz-background-size: cover;
      background-size: cover;
     color: #fff;
+    position: relative;
 
     
 }
