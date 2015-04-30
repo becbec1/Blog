@@ -73,6 +73,8 @@ header .nav {
      text-align: center;
      font-size: .9rem;
      text-transform: uppercase;
+     position: relative;
+     top: 150px;
 }
 
 header .nav a:link {
@@ -98,7 +100,7 @@ body {
     line-height: 1.5em
 }
 main{
-padding: 0 15% 0 15%;
+padding: 0 20% 0 20%;
 }
 main article h2{
     font-family: 'Bentham', 'Georgia',       serif;
@@ -153,7 +155,7 @@ text-align: center;
 }
 .authorName {
     font-size: 2.25rem; (36px)
-   margin-top: 50px;  /*none of the vertical margins are showing up */
+    margin-top: 50px;  /*none of the vertical margins are showing up */
     display: block;
    
     
@@ -162,8 +164,13 @@ text-align: center;
     font-family: 'PT Sans', sans-serif;
     color: #60ccc1;
     margin: 20px 0;
-    padding-bottom: 5px;
+/*    padding-bottom: 5px;*/
     border-bottom: 1px solid;
+    margin: 7px 300px 15px;
+    
+    
+    
+    
     
 }
 
