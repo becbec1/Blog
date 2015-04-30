@@ -73,7 +73,6 @@ header .nav {
      font-size: .9rem;
      text-transform: uppercase;
 }
-}
 
 header .nav a:link {
     text-decoration: none;
@@ -81,11 +80,6 @@ header .nav a:link {
     padding-left: 20px;
     padding-right: 20px;
     
-    background-color: #6f6f6f;
-    padding: 15px;
-    text-align: center;
-    font-size: .9rem;
-    text-transform: uppercase;
 }
     
 
