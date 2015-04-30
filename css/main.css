@@ -40,9 +40,8 @@ header {
      background-size: cover;
     color: #fff;
     position: relative;
-
-    
 }
+
 header h1 {
     font-size: 5em;
     font-family: 'Bentham', 'Georgia', serif;
@@ -65,6 +64,7 @@ header p#blogDescription {
 
 header .nav ul li {
    display: inline;  
+    
 }
     
 header .nav {   
