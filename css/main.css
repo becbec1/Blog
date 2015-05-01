@@ -93,7 +93,7 @@ header .nav a:link {
 body { 
     font-family: 'PT Serif', 'Georgia', serif;
     font-size: 1.125em; /* 18px /16 px */
-    color: #444444;
+    color: #444;
     line-height: 1.5em
 }
 main{
@@ -138,7 +138,7 @@ text-align: center;
 .share_container ul li {
   float: left;
   text-align: center;
-  color: #6f6f6f;    
+  color: #888;    
   width: 25%;
   margin: 0;
   border-left: 1px solid #888;
@@ -152,14 +152,14 @@ text-align: center;
 
 .share_container ul li a{
     display: block;
-    color: #6f6f6f;  
+    color: #888;  
     width:100%;
     padding: 15px;
-    background-color: #fff;
     -webkit-transition: all 0.3s ease-out;
     -moz-transition: all 0.3s ease-out;
     -o-transition: all 0.3s ease-out;
     transition: all 0.3s ease-out; 
+
 }
 
 .authorPic {
