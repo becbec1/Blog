@@ -135,14 +135,15 @@ text-align: center;
     width: 100%;
     margin: 100px 0;
 }
-.share_container li {
-   
-/*    one border is always 1px thicker*/
-    display: inline;
-    padding: 5px 20px;
-    border: 2px solid;
-    border-right: 2px solid;
-    margin: 0 -3px;
+.share_container ul li {
+   float: left;
+  text-align: center;
+  color: #6f6f6f;    
+  width: 25%;
+  margin: 0;
+  border-left: 1px solid #888;
+  text-transform: uppercase;
+
 }
     
 .authorPic {
