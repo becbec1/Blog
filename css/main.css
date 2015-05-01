@@ -61,20 +61,17 @@ header p#blogDescription {
     font-weight: lighter
         
 }
-
-header .nav ul li {
-   display: inline;  
     
-}
     
 header .nav {   
+    display: inline-block;
      background-color: #6f6f6f;
      padding: 15px;
      text-align: center;
      font-size: .9rem;
      text-transform: uppercase;
-     position: relative;
-     top: 150px;
+     position: absolute;
+     top: 600px;
 }
 
 header .nav a:link {
