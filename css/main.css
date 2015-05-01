@@ -135,7 +135,7 @@ text-align: center;
     width: 100%;
     margin: 100px 0;
 }
-.share_button {
+.share_container li {
    
 /*    one border is always 1px thicker*/
     display: inline;
