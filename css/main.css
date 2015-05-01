@@ -140,10 +140,11 @@ text-align: center;
 }
 .share_button {
    
+/*    one border is always 1px thicker*/
     display: inline;
-    padding: 0 15px;
-    border-right: 1px solid;
-    border: 1px solid;
+    padding: 5px 20px;
+    border: 2px solid;
+    border-right: 2px solid;
     margin: 0 -3px;
 }
     
@@ -168,10 +169,6 @@ text-align: center;
     border-bottom: 1px solid;
     margin: 7px 300px 15px;
     
-    
-    
-    
-    
 }
 
 .page_footer {
@@ -192,3 +189,44 @@ a:hover {
     color:#C160CC;
 
 }
+
+
+
+
+/****** Media Queries ************/
+
+@media all (max-width: 1024px) {
+   
+        
+    }
+}
+
+@media all (max-width: 480px) {
+
+
+}
+
+@media all (min-width: 481px) and (max-width: 700px){
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
