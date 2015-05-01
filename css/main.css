@@ -198,12 +198,12 @@ a:hover {
     }
 }
 
-@media all (max-width: 480px) {
+@media all (max-width: 680x) {
 
 
 }
 
-@media all (min-width: 481px) and (max-width: 700px){
+@media all (min-width: 320px) ){
 
 }
 
