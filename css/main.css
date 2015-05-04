@@ -39,7 +39,6 @@ header {
      -moz-background-size: cover;
      background-size: cover;
     color: #fff;
-    position: relative;
 }
 
 header h1 {
@@ -63,18 +62,19 @@ header p#blogDescription {
 }
     
     
-header .nav {   
-    display: inline-block;
+.nav {
      background-color: #6f6f6f;
      padding: 15px;
      text-align: center;
      font-size: .9rem;
      text-transform: uppercase;
-     position: absolute;
-     top: 600px;
 }
 
-header .nav a:link {
+.nav ul li {
+       display: inline-block;
+}
+
+.nav a:link {
     text-decoration: none;
     color: #60ccc1;
     padding-left: 20px;
