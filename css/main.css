@@ -2,14 +2,14 @@
 
 
 * {
-box-sizing: border-box;
+    box-sizing: border-box;
 }
 p {
     margin-bottom: 1.5em;
     line-height: 1.5em;
 }
 h1, h2, h3, h4, h5 {
-line-height: .9em;
+    line-height: .9em;
 }    
 
 
@@ -18,7 +18,6 @@ line-height: .9em;
 
 
 .logo {
-    
     font-family: 'Bentham', 'Georgia', serif;
     font-size: 2em;
     padding: 20px;
@@ -26,18 +25,17 @@ line-height: .9em;
     width: 150px;
     margin: 0 auto 120px;
     text-align: center;  
-    
-
 }
+
 header {
     padding-top: 80px;
     width: 100%;
     height: 600px;
     background: url(../images/venice.jpg) center center fixed;
-     -webkit-background-size: cover;
-     -o-background-size: cover;
-     -moz-background-size: cover;
-     background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
     color: #fff;
 }
 
@@ -50,28 +48,26 @@ header h1 {
     letter-spacing: 1.5px;
 }
    
-header p#blogDescription {
+header #blogDescription {
     font-family: 'PT Sans', sans-serif;
     font-style: italic;
     text-align: center;
     margin-top: 50px;
     letter-spacing: 1.8px;
-    line-height: 1em;
-    font-weight: lighter
-        
+    line-height: 1em;  
 }
     
     
 .nav {
-     background-color: #6f6f6f;
-     padding: 15px;
-     text-align: center;
-     font-size: .9rem;
-     text-transform: uppercase;
+    background-color: #6f6f6f;
+    padding: 15px;
+    text-align: center;
+    font-size: .9rem;
+    text-transform: uppercase;
 }
 
 .nav ul li {
-       display: inline-block;
+    display: inline-block;
 }
 
 .nav a:link {
@@ -79,7 +75,6 @@ header p#blogDescription {
     color: #60ccc1;
     padding-left: 20px;
     padding-right: 20px;
-    
 }
     
 
@@ -104,7 +99,6 @@ main article h2{
     font-size: 2.2em;
     text-transform: uppercase;
     text-align: center;
-    margin-top: 30px;
     letter-spacing: 1.5px;
     line-height: 1em;
     margin-top: 120px;
@@ -159,30 +153,26 @@ text-align: center;
     -moz-transition: all 0.3s ease-out;
     -o-transition: all 0.3s ease-out;
     transition: all 0.3s ease-out; 
-
 }
 
 .authorPic {
    border-radius: 50%;
    width: 150px;
    height: 150px;
-    
 }
+
 .authorName {
-    font-size: 2.25rem; (36px)
-    margin-top: 50px;  /*none of the vertical margins are showing up */
+    font-size: 2.25rem; /*(36px)*/
+    margin-top: 50px;
     display: block;
-   
-    
 }
+
 .jobTitle{
     font-family: 'PT Sans', sans-serif;
     color: #60ccc1;
-    margin: 20px 0;
-/*    padding-bottom: 5px;*/
     border-bottom: 1px solid;
-    margin: 7px 300px 15px;
-    
+    margin: 20px auto;
+    width: 20%;
 }
 
 .page_footer {
@@ -201,7 +191,6 @@ a:visited {
 
 a:hover {
     color:#C160CC;
-
 }
 
 
@@ -209,38 +198,11 @@ a:hover {
 
 /****** Media Queries ************/
 
-@media all (max-width: 1024px) {
-   
-        
-    }
+@media all (max-width: 1024px) {       
 }
 
 @media all (max-width: 680x) {
-
-
 }
 
-@media all (min-width: 320px) ){
-
+@media all (min-width: 320px) {
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
